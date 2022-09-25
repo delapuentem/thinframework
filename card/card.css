@@ -11,6 +11,12 @@
     object-fit: cover;
 }
 
+.card img:hover{
+    cursor: pointer;
+    transition: .3s ease-in-out;
+    opacity: 0.9;
+}
+
 .card .card-container{
     border-radius: 0 0 0.5rem 0.5rem;
     padding: 0.8rem 2rem;
@@ -34,8 +40,8 @@
 .card-row{
     display: grid;
     gap:1rem;
-    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
-    /* grid-template-columns: repeat(auto-fill, minmax(21rem, 21rem)); */
+    /* grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr)); */
+    grid-template-columns: repeat(auto-fill, minmax(18rem, 1fr));
 }
 
 .card-row > .card{

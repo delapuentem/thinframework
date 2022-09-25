@@ -1,9 +1,10 @@
 .button {
+    display: inline-block;
+    cursor: pointer;
     text-transform: uppercase;
-    padding: 0.5rem 1rem 0.5rem 1rem;
-    font-size: 0.9rem;
+    padding: 0.7rem 1.1rem;
+    font-size: 0.8rem;
     font-weight: 500;
-    cursor: pointer; 
 }
 
 .button:hover{
@@ -13,7 +14,9 @@
 .button-primary {
     color: #ffffff;
     background-color: #3479f1;
-    box-shadow: 0 4px 9px -4px #3b71ca;;
+    -webkit-box-shadow:0 4px 9px -4px #3479f1;
+    -moz-box-shadow: 0 4px 9px -4px #3479f1;
+    box-shadow: 0 4px 9px -4px #3479f1;
 }
 
 .button-primary:hover {

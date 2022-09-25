@@ -5,11 +5,17 @@ body{
 
 .container{
     /* Default margin */
-    margin: 5% 10rem;
+    margin: 5rem 15rem;
 }
 
 h2{
     font-weight: 600;
+}
+
+p{
+    font-weight: 200;
+    font-size: 15px;
+    line-height: 1.4;
 }
 
 /* Margins classes */
