@@ -1,6 +1,7 @@
 body{
     /* Default font */
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #4F4F4F;
 }
 
 .container{
@@ -13,7 +14,7 @@ h2{
 }
 
 p{
-    font-weight: 200;
+    font-weight: 400;
     font-size: 15px;
     line-height: 1.4;
 }
