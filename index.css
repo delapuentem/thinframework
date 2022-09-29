@@ -19,6 +19,21 @@ p{
     line-height: 1.4;
 }
 
+a:link{
+    color:#0969DA;
+    text-decoration: none; font-weight: 600;
+}
+
+a:hover{
+    color:rgb(6, 88, 189);
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+a:visited{
+    color:rgb(6, 88, 189);
+}
+
 /* Margins classes */
 
 .mt-0{

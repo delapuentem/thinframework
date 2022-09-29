@@ -21,6 +21,7 @@
 
 .button-primary:hover {
     background-color: #0557b4;
+    color: white;
 }
 
 .button-secondary {
@@ -29,5 +30,17 @@
 }
 
 .button-secondary:hover {
+    color: #2851AC;
     background-color: #d4dbe5;
+}
+
+.button-success {
+    color: #fff;
+    border: 1px solid #2A9048;
+    background-color: #2da44e;
+}
+
+.button-success:hover {
+    background-color: #299347;
+    color: white;
 }
