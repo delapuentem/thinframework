@@ -13,14 +13,14 @@
 
 .button-primary {
     color: #ffffff;
-    background-color: #3479f1;
-    -webkit-box-shadow:0 4px 9px -4px #3479f1;
-    -moz-box-shadow: 0 4px 9px -4px #3479f1;
-    box-shadow: 0 4px 9px -4px #3479f1;
+    background-color: #0969DA;
+    -webkit-box-shadow:0 4px 9px -4px #0969DA;
+    -moz-box-shadow: 0 4px 9px -4px #0969DA;
+    box-shadow: 0 4px 9px -4px #0969DA;
 }
 
 .button-primary:hover {
-    background-color: #2c6ede;
+    background-color: #0557b4;
 }
 
 .button-secondary {
