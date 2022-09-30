@@ -44,3 +44,14 @@
     background-color: #299347;
     color: white;
 }
+
+.button-inactive {
+    color: #6F6F6F;
+
+    background-color: #f4f3f3;
+}
+
+.button-inactive:hover {
+    background-color: #F7F7F7;
+    color: #6F6F6F;
+}

@@ -1,4 +1,5 @@
 // Contaner div
+const $navbar = document.querySelector('#navbar')
 const $containerButtons = document.querySelector('#container-buttons')
 const $containerCards = document.querySelector('#container-cards')
 const $containerProgressBar = document.querySelector('#container-progress-bar')
@@ -12,10 +13,11 @@ const importModule = function(path){
 }
 
 
+importModule('./navbar/navbar.html').then(html => $navbar.innerHTML = html)
 importModule('./button/button.html').then(html => $containerButtons.innerHTML = html)
 importModule('./forms/forms.html').then(html => $containerForms.innerHTML = html)
-importModule('./progress-bar/progress-bar.html').then(html => $containerCards.innerHTML = html)
-importModule('./card/card.html').then(html => $containerProgressBar.innerHTML = html)
+importModule('./card/card.html').then(html => $containerCards.innerHTML = html)
+importModule('./progress-bar/progress-bar.html').then(html => $containerProgressBar.innerHTML = html)
 importModule('./modal/modal.html').then((html) => {
     $containerModal.innerHTML = html
 
